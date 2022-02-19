@@ -2,7 +2,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  max-height: 20rem;
+  max-height: 50vh;
   overflow: auto;
 }
 
@@ -23,7 +23,7 @@
   font: inherit;
   cursor: pointer;
   background-color: transparent;
-  border: 1px solid #8a2b06;
+  border: 1px solid #ff724c;
   padding: 0.5rem 2rem;
   border-radius: 25px;
   margin-left: 1rem;
@@ -31,16 +31,22 @@
 
 .actions button:hover,
 .actions button:active {
-  background-color: #5a1a01;
-  border-color: #5a1a01;
-  color: white;
+  background-color: #f4f4f8;
+  border-color: #ff724c;
+  color: #ff724c;
 }
 
 .actions .button--alt {
-  color: #8a2b06;
+  color: #ff724c;
+}
+
+.actions .button--alt:hover,
+.actions .button--alt:active {
+  color: #f4f4f8;
+  background-color: #ff724c;
 }
 
 .actions .button {
-  background-color: #8a2b06;
-  color: white;
+  background-color: #ff724c;
+  color: #f4f4f8;
 }

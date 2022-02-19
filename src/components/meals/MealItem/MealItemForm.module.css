@@ -7,14 +7,14 @@
   cursor: pointer;
   background-color: #ff724c;
   border: 1px solid #ff724c;
-  color: white;
+  color: #f4f4f8;
   padding: 0.25rem 2rem;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: bold;
 }
 
 .form button:hover,
 .form button:active {
   color: #ff724c;
-  background-color: #fff;
+  background-color: #f4f4f8;
 }
